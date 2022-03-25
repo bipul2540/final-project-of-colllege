@@ -1,0 +1,124 @@
+.header {
+  height: 8vh;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #3967d6, #4e218a);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 70px;
+  object-fit: contain;
+  margin: 0 20px;
+  /* margin-top: 18px; */
+}
+
+/* .header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin: 20px;
+}
+.header__searchInput {
+  width: 100%;
+  height: 12px;
+  padding: 13px;
+  outline: none;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 28px !important;
+  background-color: #f25221;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+} */
+
+.header__search {
+  display: flex;
+  flex: 1;
+  margin: 0 15px;
+}
+
+.input__search {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.input__search .header__searchInput {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 0px 10px;
+  color: rgb(71, 71, 71);
+  overflow: hidden;
+}
+
+.header__searchIcon {
+  font-size: 10px !important;
+  height: 30px !important;
+  width: 50px !important;
+  font-size: 10px !important;
+  background-color: #f25221;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.header__searchIcon:hover {
+  width: 60px !important;
+  transition: all ease 0.5s;
+}
+
+/* NAVBAR */
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+}
+
+.nav__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+.last__option {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.item__counter {
+  margin: 0 8px;
+}
+
+.nav__option__line-1 {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.nav__options__line2 {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav__option {
+  cursor: pointer;
+}

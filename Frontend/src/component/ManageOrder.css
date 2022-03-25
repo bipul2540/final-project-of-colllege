@@ -1,0 +1,95 @@
+.orders__card {
+  width: 90%;
+  background-color: white;
+  margin: 30px auto;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 1px 2px 8px gray;
+}
+
+.orders__card .userData {
+  display: flex;
+}
+.orders__card .userData > img {
+  width: 30px;
+  height: 30px;
+}
+
+.user__address {
+  width: 300px;
+}
+.orders__card .userData span {
+  font-weight: bold;
+}
+
+.orders__card .userData > .userData__info {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+.orders__card .userData > .userData__info > p {
+  margin-left: 10px;
+}
+
+.orders__card .item__ordered {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orders__card .item__ordered > img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.itemOrdere_layer {
+  display: flex;
+}
+
+.orders__card .item__ordered p {
+  font-size: 12px;
+}
+
+.orders__card .item__ordered span {
+  font-weight: bold;
+}
+
+.item__price_paid {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.item__pricing {
+  border-bottom: 1px solid gray;
+  padding-bottom: 4px;
+}
+.item__price_paid span {
+  font-weight: bold;
+}
+
+.cancelICon {
+  margin-left: 40px;
+  font-size: 22px !important;
+  color: red;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.confirmIcon {
+  font-size: 22px !important;
+  color: green;
+  cursor: pointer;
+}
+
+.elseconditon {
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin: auto;
+}

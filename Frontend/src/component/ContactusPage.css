@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.contactpage {
+  background-image: url("./../imagess/contact.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 91vh;
+  padding: 20px 40px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactpage__content {
+  display: flex;
+  background-color: #cbe9d9;
+  height: 60%;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.content__info {
+  flex: 1;
+  background-color: #50c878;
+  margin: 20px 0px;
+  box-shadow: 1px 2px 4px gray;
+  padding: 5px 10px;
+}
+.content__info > p {
+  display: flex;
+  margin: 10px 0;
+}
+
+.content__info > p > span {
+  margin-left: 10px;
+}
+
+.content__info > .other__options {
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contactpage__content > form {
+  flex: 2;
+}
+
+.content__send {
+  height: 90%;
+  padding: 5px 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.content__send > p {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.content__send > p > span {
+  color: rgb(64, 63, 63);
+  font-size: small;
+}
+
+.content__send > p > input,
+textarea {
+  outline: none;
+  width: 50%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  font-size: medium;
+  resize: none;
+}
+
+.content__send > .message__box > input {
+  height: 50px;
+}
+
+.content__send > p > input:focus,
+textarea:focus {
+  border-bottom: 1px solid green;
+}

@@ -1,0 +1,13 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.products .products__title {
+  margin: 10px;
+}
+
+.products .products__items {
+  display: flex;
+  flex-wrap: wrap;
+}

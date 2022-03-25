@@ -1,0 +1,106 @@
+.addProduct {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+  position: relative;
+}
+
+.addProduct > h3 {
+  margin-top: 20px;
+}
+
+.addProduct > .addProduct__form {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.addProduct > .addProduct__form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addProduct > .addProduct__form > form > label {
+  font-size: 20px;
+}
+
+.addProduct > .addProduct__form > form > .select {
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 5px;
+  border-color: #f25221 !important;
+}
+
+.css-1s2u09g-control {
+  border-color: #f25221 !important;
+}
+
+.addProduct > .addProduct__form > form > h5 {
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.addProduct > .addProduct__form > form > input {
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border-color: #f25221;
+  outline: none;
+  padding-left: 10px;
+}
+
+.addProduct > .addProduct__form > form > button {
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  background-color: rgb(78, 33, 138, 0.9);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.addProduct > .addProduct__form > form > h5 > small {
+  font-size: 10px;
+}
+
+.addProduct__header {
+  background-color: #fff;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addProduct__header__logo {
+  color: #50c878;
+  display: flex;
+  align-items: center;
+}
+
+.addProduct__header__logo > .admin__logo {
+  font-size: 30px;
+  margin-right: 6px;
+  margin-left: 30px;
+}
+
+.addProduct__header__logo span {
+  color: #50c878;
+  font-size: 24px;
+}
+.manage__orders {
+  margin-right: 30px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #50c878;
+}
+
+.addProduct__header > .adminLink {
+  text-decoration: none;
+}

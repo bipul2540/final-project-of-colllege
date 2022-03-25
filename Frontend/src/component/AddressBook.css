@@ -1,0 +1,166 @@
+.addressbook {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.addressbook__left {
+  width: 70%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.left__title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.addressbook__left input {
+  margin-bottom: 20px;
+  padding: 08px 10px;
+  text-transform: capitalize;
+  outline: #50c878;
+}
+
+.addressbook__left > form > .left__firstline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressbook__left > form > .left__firstline input {
+  width: 48%;
+}
+
+.addressbook__left > form > .left__secondline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressbook__left > form > .left__secondline input {
+  width: 48%;
+}
+
+.addressbook__left > form > .left__thirdline input {
+  width: 100%;
+}
+
+.addressbook__left > form > .left__fourthline {
+  display: flex;
+  justify-content: space-between;
+}
+.addressbook__left > form > .left__fourthline input {
+  width: 48%;
+}
+
+.addressbook__left .left__fifthline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+}
+
+.addressbook__left .left__fifthline p {
+  margin-left: 8px;
+}
+
+.addressbook__left .left__fifthline .radiobutton {
+  font-size: 15px;
+  color: #50c878;
+}
+
+.addressbook__left .left__fifthline span {
+  color: #50c878;
+  margin-left: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.left__save_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.left__save_button button {
+  width: 100%;
+  padding: 8px 0px;
+  outline: none;
+  border: none;
+  background-color: #50c878;
+  border-radius: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: white;
+}
+
+/* RIGHT SIDE DESIGNING */
+
+.addressbook__right {
+  width: 30%;
+  border-left: 1px solid grey;
+  padding-right: 30px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addressbook__right .right__price__info {
+  margin-top: 30px;
+}
+
+.addressbook__right .right__price__info p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.right_detailed_summery {
+  margin-top: 30px;
+  display: flex;
+}
+
+.right_detailed_summery > p {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.right_detailed_summery > p > small {
+  font-weight: lighter;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_detailed_summery > p > small span {
+  color: #50c878;
+  cursor: pointer;
+}
+
+.amount_payable {
+  border-top: 1px solid gray;
+  margin-top: 30px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.amount_payable .ruppes__sign {
+  font-size: 13px;
+}
+
+.deliverycharge .ruppes__sign {
+  font-size: 13px;
+}
+
+.totalprice .ruppes__sign {
+  font-size: 14px;
+}
